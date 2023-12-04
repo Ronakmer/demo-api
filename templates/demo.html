@@ -1,0 +1,18 @@
+{% comment %} <h2>for 1</h2>
+<form  method="post">
+    <script src='https://checkout.stripe.com/checkout.js' class="stripe-button"
+
+data-key="{{key}}"
+data-description="hi ronak"
+data-amount='1'
+data-locale='auto'
+>
+
+</script>
+</form> {% endcomment %}
+
+
+<form method="post" action="{% url 'send_otp' '+9537840962' %}/">
+    <!-- Your form fields go here -->
+    <button type="submit">Submit</button>
+</form>
